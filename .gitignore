@@ -1,0 +1,17 @@
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+*.so
+.DS_Store
+*.pth
+*.caffemodel
+*.mov
+*.mp4
+*.swp
+*.tar
+*.log
+experiments/*/Results/
+experiments/*/metrics_*.json
+experiments/temp/
+benchmarks/*/
+data/*/
