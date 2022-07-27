@@ -1,11 +1,9 @@
-# NeuriCam: Video Super Resolution and Colorization Using Key Frames
+# [NeuriCam: Video Super Resolution and Colorization Using Key Frames](https://arxiv.org/pdf/2207.12496.pdf)
 
 A system based on key-frame video super-reosolution and colorization to achieve low-power
 video capture from dual-mode IOT cameras. This repository holds code for the model, NeuriCam-net,
 that runs on the edge receiver. NeuriCam-net reconstructs a high-reoslution color video
 from low-resolution grayscale stream, using periodic high-resolution key-frames.
-
-[Abstarct](https://arxiv.org/abs/2207.12496) [PDF](https://arxiv.org/pdf/2207.12496.pdf)
 
 <p align="center">
   <img src="model/demo.gif" />
