@@ -56,3 +56,24 @@ to `experiments/bix4_keyvsrc_attn/` directory.
 1. Training the model:
 
         python train.py --train_lr_dir=<> --train_target_dir=<> --val_lr_dir=<> --val_target_dir=<> --model_dir=experiments/bix4_keyvsrc_attn
+
+## Data Format
+
+Each training or an evaluation run works on a 3 sets of videos avaialble in the following format:
+
+```
+└── my-lr-set               └── my-key-set             └── my-hr-set             
+    ├── my-cat-video           ├── my-cat-video           ├── my-cat-video
+    │   ├── frame0.png         │   ├── frame0.png         │   ├── frame0.png
+    │   ├── frame1.png         │   ├── frame1.png         │   ├── frame1.png
+    │   ├── frame2.png         │   ├── frame2.png         │   ├── frame2.png
+    │   ...                    │   ...                    │   ...
+    ├── my-cat-vs-dog-video    ├── my-cat-vs-dog-video    ├── my-cat-vs-dog-video
+    │   ├── frame0.png         │   ├── frame0.png         │   ├── frame0.png
+    │   ├── frame1.png         │   ├── frame1.png         │   ├── frame1.png
+    │   ├── frame2.png         │   ├── frame2.png         │   ├── frame2.png
+    │   ...                    │   ...                    │   ...
+    ...                        ...                        ...                         
+```
+
+Paths to `my-lr-set`, `my-key-set` and `my-hr-set` have to be provided to respective flags in the train and eval commands above.
