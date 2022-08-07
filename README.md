@@ -2,7 +2,7 @@
 
 A system based on key-frame video super-reosolution and colorization to achieve low-power
 video capture from dual-mode IOT cameras. This repository holds code for the model, NeuriCam-net,
-that runs on the edge receiver. NeuriCam-net reconstructs a high-reoslution color video
+that runs on an edge receiver. NeuriCam-net reconstructs a high-reoslution color video
 from low-resolution grayscale stream, using periodic high-resolution key-frames.
 
 <p align="center">
@@ -16,7 +16,7 @@ Our dual mode IoT camera
 system captures low-resolution gray-scale video from a low-
 power camera and reconstructs high-resolution color frames
 using the heavily duty cycled high-resolution key-frames. The
-real-time neural network is run at the edge device (e.g., router)
+real-time neural network runs on an edge device (e.g., router)
 that is not power constrained.
 
 <p align="center">
@@ -62,7 +62,7 @@ to `experiments/bix4_keyvsrc_attn/` directory.
 Each training or an evaluation run works on a 3 sets of videos avaialble in the following format:
 
 ```
-└── my-lr-set               └── my-key-set             └── my-hr-set             
+└── lr-set                 └── key-set                └── hr-set             
     ├── my-cat-video           ├── my-cat-video           ├── my-cat-video
     │   ├── frame0.png         │   ├── frame0.png         │   ├── frame0.png
     │   ├── frame1.png         │   ├── frame1.png         │   ├── frame1.png
@@ -76,4 +76,4 @@ Each training or an evaluation run works on a 3 sets of videos avaialble in the 
     ...                        ...                        ...                         
 ```
 
-Paths to `my-lr-set`, `my-key-set` and `my-hr-set` have to be provided to respective flags in the train and eval commands above.
+Paths to `lr-set`, `key-set` and `hr-set` have to be provided to respective flags in the train and eval commands above.
