@@ -65,13 +65,13 @@ Each training or an evaluation run works on a 3 sets of videos avaialble in the 
 └── lr-set                 └── key-set                └── hr-set             
     ├── my-cat-video           ├── my-cat-video           ├── my-cat-video
     │   ├── frame0.png         │   ├── frame0.png         │   ├── frame0.png
-    │   ├── frame1.png         │   ├── frame1.png         │   ├── frame1.png
-    │   ├── frame2.png         │   ├── frame2.png         │   ├── frame2.png
+    │   ├── frame1.png         │   ├── frame15.png        │   ├── frame1.png
+    │   ├── frame2.png         │   ├── frame30.png        │   ├── frame2.png
     │   ...                    │   ...                    │   ...
     ├── my-cat-vs-dog-video    ├── my-cat-vs-dog-video    ├── my-cat-vs-dog-video
     │   ├── frame0.png         │   ├── frame0.png         │   ├── frame0.png
-    │   ├── frame1.png         │   ├── frame1.png         │   ├── frame1.png
-    │   ├── frame2.png         │   ├── frame2.png         │   ├── frame2.png
+    │   ├── frame1.png         │   ├── frame15.png        │   ├── frame1.png
+    │   ├── frame2.png         │   ├── frame30.png        │   ├── frame2.png
     │   ...                    │   ...                    │   ...
     ...                        ...                        ...                         
 ```
