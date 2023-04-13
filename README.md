@@ -19,7 +19,7 @@ real-time neural network runs on an edge device (e.g., router)
 that is not power constrained.
 
 <p align="center">
-  <img width=70% src="model/system.png" />
+  <img width=70% src="model/system.jpg" />
 </p>
 
 ## Requirements
