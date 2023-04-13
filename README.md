@@ -1,14 +1,13 @@
-# [NeuriCam: Video Super Resolution and Colorization Using Key Frames](https://arxiv.org/pdf/2207.12496.pdf) (Accepted at MobiCom 2023)
+# NeuriCam: Key-frame video super-resolution and colorization for IoT cameras (MobiCom 2023)
+
+[![Gradio demo](https://img.shields.io/badge/arxiv-abs-green)](https://arxiv.org/abs/2207.12496) [![Gradio demo](https://img.shields.io/badge/arxiv-pdf-blue)](https://arxiv.org/pdf/2207.12496.pdf)
 
 A system based on key-frame video super-reosolution and colorization to achieve low-power
 video capture from dual-mode IOT cameras. This repository holds code for the model, NeuriCam-net,
 that runs on an edge receiver. NeuriCam-net reconstructs a high-reoslution color video
 from low-resolution grayscale stream, using periodic high-resolution key-frames.
 
-<p align="center">
-  <img src="model/demo.gif" />
-</p>
-
+<video src="https://user-images.githubusercontent.com/16723254/231834665-4b575358-442c-4c41-8dd2-4b9a9b961d99.mp4"></video>
 
 ## System overview
 
