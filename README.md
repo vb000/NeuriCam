@@ -7,7 +7,7 @@ video capture from dual-mode IOT cameras. This repository holds code for the mod
 that runs on an edge receiver. NeuriCam-net reconstructs a high-reoslution color video
 from low-resolution grayscale stream, using periodic high-resolution key-frames.
 
-<video src="https://user-images.githubusercontent.com/16723254/231834665-4b575358-442c-4c41-8dd2-4b9a9b961d99.mp4"></video>
+https://github.com/vb000/NeuriCam/assets/16723254/d3d2fc4a-2cfa-4f72-918e-c62379569d91
 
 ## System overview
 
