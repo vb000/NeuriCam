@@ -1,4 +1,4 @@
-# NeuriCam: Key-frame video super-resolution and colorization for IoT cameras (MobiCom 2023)
+# NeuriCam: Key-Frame Video Super-Resolution and Colorization for IoT Cameras (MobiCom 2023)
 
 [![Gradio demo](https://img.shields.io/badge/arxiv-abs-green)](https://arxiv.org/abs/2207.12496) [![Gradio demo](https://img.shields.io/badge/arxiv-pdf-blue)](https://arxiv.org/pdf/2207.12496.pdf)
 
